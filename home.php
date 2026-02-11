@@ -252,4 +252,9 @@ if (isset($_SESSION['user_id'])) {
     <script src="script.js"></script>
     <?php include 'components/alert.php'; ?>
 </body>
+
+<script>
+    console.log("Funcionalidad websocket activada");
+</script>
+
 </html>
